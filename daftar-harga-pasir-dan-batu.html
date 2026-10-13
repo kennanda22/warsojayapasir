@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Harga - WARSO JAYA PASIR</title>
+    <meta name="description" content="Warso Jaya Pasir - supplier pasir dan batu untuk kebutuhan pembangunan dan renovasi. Hubungi kami untuk harga dan ketersediaan.">
+    <meta property="og:title" content="Daftar Harga - WARSO JAYA PASIR">
+    <meta property="og:description" content="Warso Jaya Pasir - supplier pasir dan batu untuk kebutuhan pembangunan dan renovasi. Hubungi kami untuk harga dan ketersediaan.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta property="og:image" content="images/logo-full.png">
+    <script>document.documentElement.className+=' js'</script>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="brand-logo-wrapper">
+                <img src="images/logo.png" alt="Logo Warso Jaya Pasir" class="brand-logo-img" onerror="this.style.display='none'">
+                <div class="brand-text">
+                    <h1>WARSO JAYA PASIR</h1>
+                    <p>PASIR PILIHAN UNTUK HASIL TERBAIK</p>
+                </div>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang-warsojayapasir.html">Tentang Kami</a></li>
+                <li><a href="daftar-produk-pasir-dan-batu.html">Daftar Produk</a></li>
+                <li><a href="daftar-harga-pasir-dan-batu.html" class="active">Daftar Harga</a></li>
+                <li><a href="kalkulator-material.html">Kalkulator</a></li>
+                <li><a href="testimoni-pelanggan.html">Testimoni</a></li>
+                <li><a href="berita-seputar-pasir-dan-batu.html">Artikel Material</a></li>
+            </ul>
+            <a href="https://wa.me/628811653722" class="btn-wa-header" aria-label="Pesan lewat WhatsApp" title="Pesan lewat WhatsApp" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i><span class="sr-only">Pesan lewat WhatsApp</span>
+            </a>
+        </nav>
+    </header>
+
+    <main id="konten">
+    <div class="page-banner"><h2>Daftar Harga Pasir &amp; Batu</h2><p>Harga per rit colt diesel 6,1 m³ untuk pengiriman ke Tangerang, Jakarta, Depok, Bogor, dan Bekasi</p></div>
+
+    <section class="section-container">
+        <div class="hg-tools">
+            <div class="hg-row"><span class="hg-lbl">Kota tujuan</span>
+                <div class="chips2" id="hgCity"><button data-c="0">Tangerang</button><button data-c="1" class="on">Jakarta</button><button data-c="2">Depok</button><button data-c="3">Bogor</button><button data-c="4">Bekasi</button><button data-c="all">Semua Kota</button></div></div>
+            <div class="hg-row"><span class="hg-lbl">Kategori</span>
+                <div class="chips2" id="hgCat"><button data-k="all" class="on">Semua</button><button data-k="pasir">Pasir</button><button data-k="batu">Batu &amp; Urugan</button></div></div>
+            <div class="hg-row hg-find"><div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="search" id="hgSearch" placeholder="Cari produk, misal: split, cilegon..." aria-label="Cari produk"></div>
+                <select id="hgSort" aria-label="Urutkan"><option value="katalog">Urutan katalog</option><option value="murah">Harga termurah</option><option value="mahal">Harga tertinggi</option></select></div>
+        </div>
+        <div class="hg-meta"><span id="hgCount"></span><span>Harga dalam Rupiah, per rit</span></div>
+        <div class="hg-card"><div class="hg-bar" id="hgBar"><button type="button" class="hg-nav" id="hgL" aria-label="Geser tabel ke kiri"><i class="fa-solid fa-chevron-left"></i></button><div class="hg-track" id="hgTrack" aria-hidden="true"><div class="hg-thumb" id="hgThumb"></div></div><button type="button" class="hg-nav" id="hgR" aria-label="Geser tabel ke kanan"><i class="fa-solid fa-chevron-right"></i></button></div><div class="hg-scroll" id="hgScroll"><table class="hg-table"><thead id="hgHead"></thead><tbody id="hgBody"></tbody></table></div></div>
+        <p class="hg-note"><i class="fa-solid fa-circle-info"></i> Harga dapat berubah sewaktu-waktu mengikuti stok dan lokasi pengiriman. Untuk produk bertanda "Hubungi Kami" atau lokasi di luar kota di atas, tanyakan langsung lewat WhatsApp. Harga bata merah dihitung per buah, silakan tanyakan.</p>
+    </section>
+
+    <section class="section-container reveal">
+        <div class="hg-est">
+            <div class="hg-est-form">
+                <span class="eyebrow">Hitung Cepat</span><h3>Perkiraan Total Pesanan</h3>
+                <p>Pilih produk, kota, dan jumlah rit untuk melihat perkiraan total sebelum memesan.</p>
+                <div class="hg-fields">
+                    <label for="esProd">Produk<select id="esProd"></select></label>
+                    <label for="esCity">Kota<select id="esCity"></select></label>
+                    <label for="esQty">Jumlah rit<input type="number" id="esQty" min="1" value="1" inputmode="numeric"></label>
+                </div>
+            </div>
+            <div class="hg-est-out"><div id="esOut" aria-live="polite"></div><a id="esWa" class="btn-glow" target="_blank" rel="noopener" href="#"><i class="fa-brands fa-whatsapp"></i>&nbsp; Pesan via WhatsApp</a><p>Perkiraan awal, harga final dikonfirmasi saat pemesanan.</p></div>
+        </div>
+    </section>
+
+    <section class="section-container reveal">
+        <div class="cta-band"><h3>Tidak menemukan yang Anda cari?</h3><p>Tanyakan produk, volume besar, atau lokasi pengiriman lain. Kami bantu hitungkan.</p>
+            <div class="hero-btns"><a href="https://wa.me/628811653722?text=Halo%20Warso%20Jaya%20Pasir,%20saya%20ingin%20menanyakan%20harga%20pasir%20dan%20batu" target="_blank" rel="noopener" class="btn-glow">Hubungi Kami</a><a href="kalkulator-material.html" class="btn-outline">Hitung Kebutuhan</a></div></div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <img src="images/logo-full.png" alt="Logo Warso Jaya Pasir" class="footer-logo" width="110" height="110" loading="lazy">
+                <h4>WARSO JAYA PASIR</h4>
+                <p>Supplier pasir dan batu untuk kebutuhan pembangunan dan renovasi di area Jabodetabek.</p>
+                <p style="margin-top:12px"><a aria-label="Instagram" href="https://www.instagram.com/warsoojaya_pasir?cplk=MTd5ajlyaTJ5dnUwZA%3D%3D" target="_blank" rel="noopener" style="display:inline;margin-right:14px"><i class="fa-brands fa-instagram"></i></a><a aria-label="TikTok" href="https://www.tiktok.com/@warso_jaya?_r=1&_t=ZS-9AUjBf27G7E" target="_blank" rel="noopener" style="display:inline;margin-right:14px"><i class="fa-brands fa-tiktok"></i></a><a aria-label="Facebook" href="https://www.facebook.com/share/1Fr7BVtDKC/?mibextid=wwXIfr" target="_blank" rel="noopener" style="display:inline"><i class="fa-brands fa-facebook-f"></i></a></p>
+            </div>
+            <div class="footer-col"><h4>Halaman</h4><a href="index.html">Beranda</a><a href="tentang-warsojayapasir.html">Tentang Kami</a><a href="daftar-produk-pasir-dan-batu.html">Daftar Produk</a><a href="daftar-harga-pasir-dan-batu.html">Daftar Harga</a><a href="kalkulator-material.html">Kalkulator</a><a href="testimoni-pelanggan.html">Testimoni</a></div>
+            <div class="footer-col"><h4>Material</h4><a href="daftar-produk-pasir-dan-batu.html">Pasir Bangka</a><a href="daftar-produk-pasir-dan-batu.html">Pasir Cilegon</a><a href="daftar-produk-pasir-dan-batu.html">Pasir Rangkas</a><a href="daftar-produk-pasir-dan-batu.html">Batu Split</a><a href="daftar-produk-pasir-dan-batu.html">Batu Makadam</a><a href="daftar-produk-pasir-dan-batu.html">Tanah Merah</a></div>
+            <div class="footer-col"><h4>Kontak</h4><a href="https://wa.me/628811653722" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> 0881-1653-722</a><p><i class="fa-solid fa-location-dot"></i> MHVV+GF3, Jatake, Kec. Pagedangan, Kabupaten Tangerang, Banten 15330</p></div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 WARSO JAYA PASIR. All Rights Reserved.</div>
+    </footer>
+
+    <a href="https://wa.me/628811653722?text=Halo%20Warso%20Jaya%20Pasir,%20saya%20mau%20konsultasi%20pemesanan%20material" class="floating-wa-btn" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Hubungi Kami</span>
+    </a>
+
+    <script src="js/harga.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
