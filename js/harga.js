@@ -4,8 +4,6 @@
 var HG_CITIES=["Tangerang","Jakarta","Depok","Bogor","Bekasi"];
 var HG_UNIT="Colt Diesel 6,1 m³";
 var HG=[
- ["Pasir Bangka Belitung","pasir",[2800000,2850000,2850000,2900000,2900000]],
- ["Pasir Bangka Belitung Kuning","pasir",[2750000,2800000,2800000,2850000,2850000]],
  ["Pasir Bangka Cream","pasir",[2750000,2800000,2800000,2850000,2850000]],
  ["Pasir Cilegon","pasir",[1800000,1850000,1900000,1950000,1950000]],
  ["Pasir Rangkas","pasir",[2300000,2350000,2350000,2400000,2400000]],
@@ -18,7 +16,6 @@ var HG=[
  ["Batu Split Uk 1-2","batu",[2900000,3000000,2950000,3100000,3100000]],
  ["Batu Split Uk 2-3","batu",[2900000,3000000,2950000,3100000,3100000]],
  ["Batu Split Uk 3-5","batu",[2850000,2950000,2900000,3050000,3050000]],
- ["Batu Split Cilegon","batu",null],
  ["Batu Screening","batu",[2950000,3050000,3050000,3050000,3150000]],
  ["Batu Basecourse","batu",[2600000,2650000,2650000,2700000,2750000]],
  ["Batu Makadam","urugan",[1950000,2100000,2100000,2150000,2200000]],
