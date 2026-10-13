@@ -5,6 +5,9 @@ var HG_CITIES=["Tangerang","Jakarta","Depok","Bogor","Bekasi"];
 var HG_UNIT="Colt Diesel 6,1 m³";
 var HG=[
  ["Pasir Bangka Cream","pasir",[2750000,2800000,2800000,2850000,2850000]],
+ ["Pasir Bangka Putih","pasir",[2800000,2850000,2850000,2900000,2900000]],
+ ["Pasir Bangka Kuning","pasir",[2750000,2800000,2800000,2850000,2850000]],
+ ["Pasir Bangka Super","pasir",null],
  ["Pasir Cilegon","pasir",[1800000,1850000,1900000,1950000,1950000]],
  ["Pasir Rangkas","pasir",[2300000,2350000,2350000,2400000,2400000]],
  ["Pasir Rangkas Abadi","pasir",[2350000,2500000,2450000,2500000,2650000]],
